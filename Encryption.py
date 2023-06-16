@@ -4,8 +4,7 @@ try:
     key= int(input("Enter key for encryption of Image: "))
 
     print("The path of file: ", path)
-    print("Nte: Encryption key and Decryption key must be same.")
-    print("Key for decryption: ")
+    print("Key for decryption: ",key)
 
     fin = open(path, 'rb')
 
